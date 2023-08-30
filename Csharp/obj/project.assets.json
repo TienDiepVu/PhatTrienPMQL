@@ -13,19 +13,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HUMG edu\\PTPMQL\\Csharp\\Csharp.csproj",
+      "projectUniqueName": "d:\\HUMG edu\\PTPMQL\\Csharp\\Csharp.csproj",
       "projectName": "Csharp",
-      "projectPath": "D:\\HUMG edu\\PTPMQL\\Csharp\\Csharp.csproj",
+      "projectPath": "d:\\HUMG edu\\PTPMQL\\Csharp\\Csharp.csproj",
       "packagesPath": "C:\\Users\\tiend\\.nuget\\packages\\",
-      "outputPath": "D:\\HUMG edu\\PTPMQL\\Csharp\\obj\\",
+      "outputPath": "d:\\HUMG edu\\PTPMQL\\Csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tiend\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\tiend\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

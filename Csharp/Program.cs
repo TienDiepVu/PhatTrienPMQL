@@ -8,6 +8,10 @@ internal class Program
         a = Convert.ToInt32(Console.ReadLine());
         Console.Write("Nhập vào số thứ hai: b= ");
         b = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("{0} - {1} = {2} ", a,b,a-b);
+        Console.WriteLine("{0} * {1} = {2} ", a,b,a*b);
+        Console.WriteLine("{0} / {1} = {2} ", a,b,a/b);
+        Console.WriteLine("{0} % {1} = {2} ", a,b,a%b);
         if (a == b) 
         {
             Console.Write(a + " bằng " + b);
