@@ -1,0 +1,14 @@
+D:\HUMG edu\PTPMQL\NewApp\bin\Debug\net7.0\NewApp.exe
+D:\HUMG edu\PTPMQL\NewApp\bin\Debug\net7.0\NewApp.deps.json
+D:\HUMG edu\PTPMQL\NewApp\bin\Debug\net7.0\NewApp.runtimeconfig.json
+D:\HUMG edu\PTPMQL\NewApp\bin\Debug\net7.0\NewApp.dll
+D:\HUMG edu\PTPMQL\NewApp\bin\Debug\net7.0\NewApp.pdb
+D:\HUMG edu\PTPMQL\NewApp\obj\Debug\net7.0\NewApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\HUMG edu\PTPMQL\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfoInputs.cache
+D:\HUMG edu\PTPMQL\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfo.cs
+D:\HUMG edu\PTPMQL\NewApp\obj\Debug\net7.0\NewApp.csproj.CoreCompileInputs.cache
+D:\HUMG edu\PTPMQL\NewApp\obj\Debug\net7.0\NewApp.dll
+D:\HUMG edu\PTPMQL\NewApp\obj\Debug\net7.0\refint\NewApp.dll
+D:\HUMG edu\PTPMQL\NewApp\obj\Debug\net7.0\NewApp.pdb
+D:\HUMG edu\PTPMQL\NewApp\obj\Debug\net7.0\NewApp.genruntimeconfig.cache
+D:\HUMG edu\PTPMQL\NewApp\obj\Debug\net7.0\ref\NewApp.dll
