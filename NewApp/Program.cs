@@ -18,3 +18,20 @@ Console.WriteLine("{0} - {1} = {2} ", a, b, a - b);
 Console.WriteLine("{0} * {1} = {2} ", a, b, a * b);
 Console.WriteLine("{0} / {1} = {2} ", a, b, a / b);
 Console.WriteLine("{0} % {1} = {2} ", a, b, a % b);
+
+//Toan tu so sanh
+if (a == b)
+{
+    Console.Write(a + " bang " + b);
+}
+else
+{
+    if (a > b)
+    {
+        Console.WriteLine(a + " lon hon " + b);
+    }
+    else
+    {
+        Console.WriteLine(a + " nho hon " + b);
+    }
+}
