@@ -21,10 +21,24 @@
         a = Convert.ToInt16(Console.ReadLine());
         System.Console.Write("b = ");
         b = Convert.ToInt16(Console.ReadLine());
-        Console.WriteLine("{0} - {1} = {2}", a , b , a-b);
-        Console.WriteLine("{0} x {1} = {2}", a , b , a*b);
-        Console.WriteLine("{0} / {1} = {2} ", a, b, a / b);
-        Console.WriteLine("{0} % {1} = {2} ", a, b, a % b);
+        // Console.WriteLine("{0} - {1} = {2}", a , b , a-b);
+        // Console.WriteLine("{0} x {1} = {2}", a , b , a*b);
+        // Console.WriteLine("{0} / {1} = {2} ", a, b, a / b);
+        // Console.WriteLine("{0} % {1} = {2} ", a, b, a % b);
+        
+        //toan tu so sanh
+        if (a < b)
+        {
+            Console.WriteLine(a + " nho hơn " + b);
+        }
+        else if (a > b)
+        {
+            Console.WriteLine(a + " lon hơn " + b);
+        }
+        else
+        {
+            Console.WriteLine(a + " bang " + b);
+        }
 
     }
 }
