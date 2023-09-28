@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\HUMGedu\\PTPMQL\\NewApp\\NewApp.csproj": {}
+    "D:\\HUMGedu\\PTPMQL\\NewApp\\NewApp.csproj": {}
   },
   "projects": {
-    "d:\\HUMGedu\\PTPMQL\\NewApp\\NewApp.csproj": {
+    "D:\\HUMGedu\\PTPMQL\\NewApp\\NewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\HUMGedu\\PTPMQL\\NewApp\\NewApp.csproj",
+        "projectUniqueName": "D:\\HUMGedu\\PTPMQL\\NewApp\\NewApp.csproj",
         "projectName": "NewApp",
-        "projectPath": "d:\\HUMGedu\\PTPMQL\\NewApp\\NewApp.csproj",
+        "projectPath": "D:\\HUMGedu\\PTPMQL\\NewApp\\NewApp.csproj",
         "packagesPath": "C:\\Users\\tiend\\.nuget\\packages\\",
-        "outputPath": "d:\\HUMGedu\\PTPMQL\\NewApp\\obj\\",
+        "outputPath": "D:\\HUMGedu\\PTPMQL\\NewApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tiend\\AppData\\Roaming\\NuGet\\NuGet.Config"
