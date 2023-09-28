@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\tiend\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\HUMG edu\\PTPMQL\\FirstWebMVC\\FirstWebMVC.csproj",
+      "projectUniqueName": "d:\\HUMGedu\\PTPMQL\\FirstWebMVC\\FirstWebMVC.csproj",
       "projectName": "FirstWebMVC",
-      "projectPath": "F:\\HUMG edu\\PTPMQL\\FirstWebMVC\\FirstWebMVC.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "F:\\HUMG edu\\PTPMQL\\FirstWebMVC\\obj\\",
+      "projectPath": "d:\\HUMGedu\\PTPMQL\\FirstWebMVC\\FirstWebMVC.csproj",
+      "packagesPath": "C:\\Users\\tiend\\.nuget\\packages\\",
+      "outputPath": "d:\\HUMGedu\\PTPMQL\\FirstWebMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\tiend\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

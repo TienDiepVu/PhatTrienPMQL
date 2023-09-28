@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HUMG edu\\PTPMQL\\NewApp\\NewApp.csproj": {}
+    "d:\\HUMGedu\\PTPMQL\\NewApp\\NewApp.csproj": {}
   },
   "projects": {
-    "D:\\HUMG edu\\PTPMQL\\NewApp\\NewApp.csproj": {
+    "d:\\HUMGedu\\PTPMQL\\NewApp\\NewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HUMG edu\\PTPMQL\\NewApp\\NewApp.csproj",
+        "projectUniqueName": "d:\\HUMGedu\\PTPMQL\\NewApp\\NewApp.csproj",
         "projectName": "NewApp",
-        "projectPath": "D:\\HUMG edu\\PTPMQL\\NewApp\\NewApp.csproj",
+        "projectPath": "d:\\HUMGedu\\PTPMQL\\NewApp\\NewApp.csproj",
         "packagesPath": "C:\\Users\\tiend\\.nuget\\packages\\",
-        "outputPath": "D:\\HUMG edu\\PTPMQL\\NewApp\\obj\\",
+        "outputPath": "d:\\HUMGedu\\PTPMQL\\NewApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiend\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\tiend\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
