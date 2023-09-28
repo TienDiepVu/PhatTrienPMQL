@@ -13,7 +13,7 @@ namespace NewApp.Models
         }
         public void Export()
         {
-            Console.WriteLine("{0} - {1}", FullName , Age);
+            Console.WriteLine("{0} - {1} Tuoi", FullName , Age);
         }
     }
 }
