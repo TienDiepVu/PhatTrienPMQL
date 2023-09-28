@@ -1,0 +1,14 @@
+D:\HUMGedu\PTPMQL\Cs-basic\bin\Debug\net7.0\Cs-basic.exe
+D:\HUMGedu\PTPMQL\Cs-basic\bin\Debug\net7.0\Cs-basic.deps.json
+D:\HUMGedu\PTPMQL\Cs-basic\bin\Debug\net7.0\Cs-basic.runtimeconfig.json
+D:\HUMGedu\PTPMQL\Cs-basic\bin\Debug\net7.0\Cs-basic.dll
+D:\HUMGedu\PTPMQL\Cs-basic\bin\Debug\net7.0\Cs-basic.pdb
+D:\HUMGedu\PTPMQL\Cs-basic\obj\Debug\net7.0\Cs-basic.GeneratedMSBuildEditorConfig.editorconfig
+D:\HUMGedu\PTPMQL\Cs-basic\obj\Debug\net7.0\Cs-basic.AssemblyInfoInputs.cache
+D:\HUMGedu\PTPMQL\Cs-basic\obj\Debug\net7.0\Cs-basic.AssemblyInfo.cs
+D:\HUMGedu\PTPMQL\Cs-basic\obj\Debug\net7.0\Cs-basic.csproj.CoreCompileInputs.cache
+D:\HUMGedu\PTPMQL\Cs-basic\obj\Debug\net7.0\Cs-basic.dll
+D:\HUMGedu\PTPMQL\Cs-basic\obj\Debug\net7.0\refint\Cs-basic.dll
+D:\HUMGedu\PTPMQL\Cs-basic\obj\Debug\net7.0\Cs-basic.pdb
+D:\HUMGedu\PTPMQL\Cs-basic\obj\Debug\net7.0\Cs-basic.genruntimeconfig.cache
+D:\HUMGedu\PTPMQL\Cs-basic\obj\Debug\net7.0\ref\Cs-basic.dll
