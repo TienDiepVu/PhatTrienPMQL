@@ -3,11 +3,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Person ps1 = new Person();
-        Person ps2 = new Person();
-        ps1.FullName = "Vu Tien Diep";
-        ps1.Age = 22;
-        ps1.Export();
-        ps2.Export();
+        Person ps = new Person();
+        string str = "VuTienDiep";
+        int a = 22;
+        ps.Export2(str,a);
     }
 }
