@@ -6,9 +6,6 @@ public class Program
         Person ps = new Person();
         string str = "VuTienDiep";
         int a = 22;
-        string c = "11111111";
-        ps.Export(str,a);
-        ps.Export(str,c);
-
+        System.Console.WriteLine( "{0} sinh nam {1} ", str , ps.GetYearOfBirth(a));
     }
 }
