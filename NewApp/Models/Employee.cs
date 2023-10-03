@@ -30,5 +30,10 @@ namespace NewApp.Models
             EmpID = 110701;
             Salary = 2000;
         }
+
+        public void ExportData2(string NameOfEmp , int AgeOfEmp)
+        {
+            System.Console.WriteLine("Mr.{0} - {1} years old", NameOfEmp, AgeOfEmp);
+        }
     }
 }
