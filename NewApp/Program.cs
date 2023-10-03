@@ -1,10 +1,6 @@
 ﻿using NewApp.Models;
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Employee std = new Employee();
-        std.Import();
-        std.Export();
-    }
-}
+int[] intArr = new int[5]{1,2,3,4,5};
+Student[] stdArr = new  Student[3];
+Employee[] empArr;
+empArr = new Employee[2];
+
