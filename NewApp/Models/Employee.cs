@@ -33,7 +33,13 @@ namespace NewApp.Models
 
         public void ExportData2(string NameOfEmp , int AgeOfEmp)
         {
-            System.Console.WriteLine("Mr.{0} - {1} years old", NameOfEmp, AgeOfEmp);
+            Console.WriteLine("Mr.{0} - {1} years old", NameOfEmp, AgeOfEmp);
+        }
+
+        public int TinhLuong(int Salary)
+        {
+            int TinhLuong = 12 * Salary;
+            return TinhLuong;
         }
     }
 }
