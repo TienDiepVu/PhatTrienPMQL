@@ -3,7 +3,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Student std = new Student();
+        Employee std = new Employee();
         std.Import();
         std.Export();
     }
