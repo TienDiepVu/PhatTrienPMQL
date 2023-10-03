@@ -1,5 +1,3 @@
-using System.Runtime.Intrinsics.Arm;
-
 namespace NewApp.Models
 {
     public class Employee:Person
@@ -14,7 +12,7 @@ namespace NewApp.Models
         public void Export()
         {
             base.Export();
-            Console.WriteLine(" - Luong duoc nhan: {0} USD", Salary);
+            Console.Write(" - Luong duoc nhan: {0} USD", Salary);
         }
     }
 }
