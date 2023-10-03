@@ -20,7 +20,15 @@ namespace NewApp.Models
         }
         public void ExportData()
         {
-            Console.WriteLine("Thong tin nhan vien: \n Ong/ba : {0} \n Tuoi : {1} \n Ma Nhan Vien: {2} \n Muc luong hien tai: {3} VND", NameOfEmp , AgeOfEmp , EmpID , Salary);
+            Console.WriteLine("Thong tin nhan vien: \n Ong/ba : {0} \n Tuoi : {1} \n Ma Nhan Vien: {2} \n Muc luong hien tai: {3} USD", NameOfEmp , AgeOfEmp , EmpID , Salary);
+        }
+
+        public Employee()
+        {
+            NameOfEmp ="Vu Tien Diep";
+            AgeOfEmp = 22;
+            EmpID = 110701;
+            Salary = 2000;
         }
     }
 }
