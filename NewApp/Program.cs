@@ -5,7 +5,6 @@ public class Program
     {
         Student std = new Student();
         std.Import();
-        std.StudentCode = "110101010";
         std.Export();
     }
 }
