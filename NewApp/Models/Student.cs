@@ -14,7 +14,7 @@ namespace NewApp.Models
         public void Export()
         {
             base.Export();
-            System.Console.WriteLine(" - Ma sinh vien: {0}", StudentID);
+            Console.WriteLine(" - Ma sinh vien: {0}", StudentID);
         }
     }
 }
