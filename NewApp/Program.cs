@@ -1,13 +1,13 @@
 ﻿using NewApp.Models;
-Student[] stdArr = new  Student[3];
+Person[] stdArr = new  Person[3];
 for(int i = 0; i < 3; i++)
 {
 Console.WriteLine("Nhap phan tu thu {0}: ", i);
-Student std = new Student ();
+Person std = new Person ();
 std.Import();
 stdArr[i] = std;
 }
-foreach(Student std in stdArr)
+foreach(Person std in stdArr)
 {
 string fName = std.FullName;
 string PID = std.PersonID;
