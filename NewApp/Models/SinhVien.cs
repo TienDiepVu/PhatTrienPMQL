@@ -1,3 +1,5 @@
+// Vũ Tiến Điệp 
+// 2021050192
 namespace NewApp.Models
 {
     public class SinhVien
