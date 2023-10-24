@@ -1,13 +1,13 @@
 namespace WebMVC.Models
 {
-    public class ExcuteSalary
+    public class User
     {
         public string Name { get; set; }
-        public int Salary { get; set; }
+        public double Salary { get; set; }
         public double Factor { get; set; }
         public double Allowance { get; set; }
 
-        public double totalSalary()
+        public double CalculateSalary()
         {
             return Salary * Factor + Allowance;
         }
