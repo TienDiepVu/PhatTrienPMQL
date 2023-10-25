@@ -15,7 +15,7 @@ namespace WebMVC.Controllers
 
             ViewBag.Salary = salary;
 
-            return View("Salary");
+            return View();
         }
     }
 }
