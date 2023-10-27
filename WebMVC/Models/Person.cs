@@ -4,6 +4,6 @@ namespace WebMVC.Models
     {
         public string PersonID { get; set; }
         public string FullName { get; set; }
-        public dynamic str { get; internal set; }
+        public string Address { get; set; }
     }
 }

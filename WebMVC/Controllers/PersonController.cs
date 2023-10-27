@@ -14,7 +14,7 @@ namespace WebMVC.Controllers
 
         public IActionResult Index( Person ps)
         {
-            string str = ps.PersonID + " - " + ps.FullName;
+            string str = ps.PersonID + " - " + ps.FullName + " - " + ps.Address;
             ViewBag.Export = str;
             return View();
         }
