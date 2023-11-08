@@ -10,8 +10,8 @@ using WebMVC.Data;
 namespace WebMVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231027030642_Create_Table_Person")]
-    partial class Create_Table_Person
+    [Migration("20231108113007_Update_table_Person")]
+    partial class Update_table_Person
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -29,6 +29,10 @@ namespace WebMVC.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Phone")
                         .IsRequired()
                         .HasColumnType("TEXT");
 

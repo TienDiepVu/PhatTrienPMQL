@@ -1,18 +1,58 @@
-<form asp-action="Index" class="w3-container">
+@model IEnumerable<WebMVC.Models.Employee>
 
-<label>EmployeeID: </label>
-<input class="w3-input" name= "EmployeeID" type="text">
+@{
+    ViewData["Title"] = "Index";
+}
 
-<label>FullName: </label>
-<input class="w3-input" name="FullName" type="text">
+<h1>Index</h1>
 
-<label>Age: </label>
-<input class="w3-input" name="Age" type="number">
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
 
-<label>Address: </label>
-<input class="w3-input" name="Address" type="text">
-<input type="submit" value="Send">
-
-</form>
-
-<p>@ViewBag.Export2</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model){
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PersonID">Edit</a>
+                <a asp-action="Delete" asp-route-id="@item.PersonID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

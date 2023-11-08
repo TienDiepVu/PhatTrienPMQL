@@ -10,8 +10,8 @@ using WebMVC.Data;
 namespace WebMVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231027030642_Create_Table_Person")]
-    partial class Create_Table_Person
+    [Migration("20231108120124_Create_table_Employee")]
+    partial class Create_table_Employee
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,9 +32,38 @@ namespace WebMVC.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.HasKey("PersonID");
 
                     b.ToTable("Persons");
+
+                    b.UseTptMappingStrategy();
+                });
+
+            modelBuilder.Entity("WebMVC.Models.Employee", b =>
+                {
+                    b.HasBaseType("WebMVC.Models.Person");
+
+                    b.Property<int>("Age")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("EmployeeID")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.ToTable("Employee");
+                });
+
+            modelBuilder.Entity("WebMVC.Models.Employee", b =>
+                {
+                    b.HasOne("WebMVC.Models.Person", null)
+                        .WithOne()
+                        .HasForeignKey("WebMVC.Models.Employee", "PersonID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

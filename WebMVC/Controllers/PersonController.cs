@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebMVC.Models;
-using WebMVC.Models.Data;
+using WebMVC.Data;
 
 namespace WebMVC.Controllers
 {
@@ -23,7 +23,7 @@ namespace WebMVC.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PersonID,FullName, Address")] Person person)
+        public async Task<IActionResult> Create([Bind("PersonID,FullName, Address, Phone")] Person person)
         {
             if (ModelState.IsValid)
             {
@@ -49,7 +49,7 @@ namespace WebMVC.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("PersonID,FullName, Address")] Person person)
+        public async Task<IActionResult> Edit(string id, [Bind("PersonID,FullName, Address, Phone")] Person person)
         {
             if (id != person.PersonID)
             {

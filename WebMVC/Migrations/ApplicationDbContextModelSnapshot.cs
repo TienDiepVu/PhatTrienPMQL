@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebMVC.Models.Data;
+using WebMVC.Data;
 
 #nullable disable
 
@@ -29,9 +29,38 @@ namespace WebMVC.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.HasKey("PersonID");
 
                     b.ToTable("Persons");
+
+                    b.UseTptMappingStrategy();
+                });
+
+            modelBuilder.Entity("WebMVC.Models.Employee", b =>
+                {
+                    b.HasBaseType("WebMVC.Models.Person");
+
+                    b.Property<int>("Age")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("EmployeeID")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.ToTable("Employee");
+                });
+
+            modelBuilder.Entity("WebMVC.Models.Employee", b =>
+                {
+                    b.HasOne("WebMVC.Models.Person", null)
+                        .WithOne()
+                        .HasForeignKey("WebMVC.Models.Employee", "PersonID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

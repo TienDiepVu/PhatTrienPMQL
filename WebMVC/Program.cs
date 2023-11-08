@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using WebMVC.Models.Data;
+using WebMVC.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
