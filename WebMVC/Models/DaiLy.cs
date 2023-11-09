@@ -1,7 +1,13 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore.Sqlite;
+
 namespace WebMVC.Models
 {
-    public class DaiLy
+    [Table("DaiLy")]
+    public class DaiLy 
     {
+        [Key]
         public string MaDaiLy { get; set; }
         public string TenDaiLy { get; set; }
         public string DiaChi { get; set; }

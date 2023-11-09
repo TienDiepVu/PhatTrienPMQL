@@ -9,5 +9,9 @@ namespace WebMVC.Data
         {}
         public DbSet<Person> Person { get; set;}
         public DbSet<Employee> Employee { get; set;}
+
+        public DbSet<HeThongPhanPhoi> HeThongPhanPhoi { get; set; }
+
+        public DbSet<DaiLy> DaiLy { get; set; } 
     }
 }
