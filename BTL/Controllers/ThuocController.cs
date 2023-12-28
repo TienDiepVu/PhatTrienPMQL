@@ -224,7 +224,7 @@ namespace BTL.Controllers
             var fileName = "Danhsachthuoc" + ".xlsx";
             using(ExcelPackage excelPackage = new ExcelPackage())
             {
-                ExcelWorksheet worksheet = excelPackage.Workbook.Worksheets.Add("Sheet 2");
+                ExcelWorksheet worksheet = excelPackage.Workbook.Worksheets.Add("Sheet 1");
                 worksheet.Cells["A1"].Value = "MaThuoc";
                 worksheet.Cells["B1"].Value = "TenThuoc";
                 worksheet.Cells["C1"].Value = "SoLuong";
